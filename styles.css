@@ -40,35 +40,40 @@ body, html {
   }
   
 .btn {
-    /* display: inline; */
-    background: rgb(223, 131, 209);
-    border:2px solid rgb(0, 0, 0);
-    padding: 1px;
-    width: auto;
-    text-align:left;
-    z-index: 2;
-    border-radius:2px;
-    transition-duration: 0.5s;
-  }
-  
-  .preorder-buttons {
-    width: auto;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .btn-container {
-    display: inline-flex; 
-    vertical-align: bottom;
-  }
-  
-  .btn-txt {
-    margin: auto;
-    padding: 2px;
+  /* display: inline; */
+  background: rgb(228, 181, 221);
+  border:2px solid grey;
+  padding: 1px;
+  width: auto;
+  text-align:left;
+  z-index: 2;
+  border-radius:1px;
+  transition-duration: 0.5s;
+}
 
-  }
+.preorder-buttons {
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.btn-container {
+  display: inline-flex; 
+  vertical-align: bottom;
+}
+
+.btn-txt {
+  margin: auto;
+  padding: 2px;
+
+}
   
-  .btndiv {
-    height:5px;
-    display: block;
-  }
+.vertdiv5 {
+  height:5px;
+  display: block;
+}
+
+.vertdiv20 {
+  height: 20px;
+  display: block;
+}
