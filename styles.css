@@ -40,14 +40,14 @@ body, html {
   }
   
 .btn {
-    display: inline;
-    background: #fff;
-    border:2px solid grey;
-    padding: 5px;
+    /* display: inline; */
+    background: rgb(223, 131, 209);
+    border:2px solid rgb(0, 0, 0);
+    padding: 1px;
     width: auto;
     text-align:left;
     z-index: 2;
-    border-radius:5px;
+    border-radius:2px;
     transition-duration: 0.5s;
   }
   
@@ -64,6 +64,8 @@ body, html {
   
   .btn-txt {
     margin: auto;
+    padding: 2px;
+
   }
   
   .btndiv {
